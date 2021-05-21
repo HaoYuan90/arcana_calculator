@@ -13,6 +13,7 @@ jobs:
         with:
           node-version: '14'
 
+      - run: npm ci
       - name: Deploy with gh-pages
         run: |
           git remote set-url origin https://git:HaoYuan90@github.com/arcana-builder.git
