@@ -1,3 +1,5 @@
+Visit [This Page](https://haoyuan90.github.io/arcana_calculator)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
