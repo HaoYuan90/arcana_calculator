@@ -16,7 +16,7 @@ jobs:
       - run: yarn install
       - name: Deploy with gh-pages
         run: |
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/arcana-builder.git
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/HaoYuan90/arcana_calculator.git
           yarn run deploy -- -u "github-actions-bot <support+actions@github.com>"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
